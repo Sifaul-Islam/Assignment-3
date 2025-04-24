@@ -38,7 +38,6 @@ document.getElementById("searchBox").addEventListener("keypress", function(event
         <button class="more-btn">More Details</button>
         <div class="details">
           <img src="${flag}" alt="${countryName} Flag" class="flag-img">
-          <p><strong>Capital:</strong> ${capital}</p>
           <p><strong>Population:</strong> ${population}</p>
           <div class="weather-info"><em>Loading weather...</em></div>
         </div>
