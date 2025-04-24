@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Country Info Finder</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <script src="api.js"></script>
+    <nav>
+        <h1>Country Info & Weather</h1>
+    </nav>
+    <img class="bg" src="./World-Map.png" alt="">
+    <div class="search-box">
+
+        <input type="text" id="searchBox" placeholder="Search country...">
+        <button onclick="connect()">Search</button>
+    </div>
+
+    <div id="displayArea" class="country-grid"></div>
+    
+
+    <footer>
+        <p>Powered by REST Countries & OpenWeatherMap</p>
+    </footer>
+
+
+</body>
+</html>
